@@ -10,7 +10,7 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [x] Pythagoras Theorem
   - [x] Triangle Inequality
   - [x] LCM
-  - [ ] Shipment Service (easy)
+  - [x] Shipment Service (easy)
   - [x] Jared and Maths Homework
   - [x] Dinesh and Gambling
   - [x] GCD test
