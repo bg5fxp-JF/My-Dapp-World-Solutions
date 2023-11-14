@@ -9,18 +9,18 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [x] Fibonacci Sequence
   - [x] Pythagoras Theorem
   - [x] Triangle Inequality
-  - [ ] LCM
+  - [x] LCM
   - [ ] Shipment Service (easy)
-  - [ ] Jared and Maths Homework
-  - [ ] Dinesh and Gambling
-  - [ ] GCD test
-  - [ ] Gavin, Jack and abacus trick
-  - [ ] Gavin and the chocolate shop (Easy version)
-  - [ ] Diamond tracking (Easy version)
-  - [ ] Storage Smart Contract
-  - [ ] Calculate factorial
-  - [ ] Calculate greatest
-  - [ ] Check even number
+  - [x] Jared and Maths Homework
+  - [x] Dinesh and Gambling
+  - [x] GCD test
+  - [x] Gavin, Jack and abacus trick
+  - [x] Gavin and the chocolate shop (Easy version)
+  - [x] Diamond tracking (Easy version)
+  - [x] Storage Smart Contract
+  - [x] Calculate factorial
+  - [x] Calculate greatest
+  - [x] Check even number
 - Medium
   - [x] Automatic Lottery System - Easy
   - [x] Palindrome Checker
