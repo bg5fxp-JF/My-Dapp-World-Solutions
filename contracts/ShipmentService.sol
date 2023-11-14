@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 error NotOwner();
 error NotCustomer();
+error NotAccessible();
 error OrderAlreadyPlaced();
 error InvalidPin();
 
@@ -10,6 +11,7 @@ contract ShipmentService {
 
     // Type Declerations
     enum OrderStatus {
+        NOT_PLACED,
         SHIPPED,
         DILIVERED
     }
@@ -19,9 +21,8 @@ contract ShipmentService {
         uint OTP;
     }
 
+    // State Variables
     address public owner;
- 
-
     mapping (address => bool) private customerHasPlacedOrder;
     mapping (address => Order) private customerToOrder;
     mapping (address => uint256) private completedDeliveries;
@@ -38,6 +39,7 @@ contract ShipmentService {
     
     //This function inititates the shipment
     function shipWithPin(address customerAddress, uint pin) public onlyOwner {
+       if (customerAddress == owner) revert NotCustomer();
        if(customerHasPlacedOrder[customerAddress]) revert OrderAlreadyPlaced();
        if(!(pin > 999 && pin <= 9999)) revert InvalidPin(); 
 
@@ -59,12 +61,22 @@ contract ShipmentService {
 
     //This function outputs the status of the delivery
     function checkStatus(address customerAddress) public view returns (string memory){
-        if (!customerHasPlacedOrder[customerAddress]) return "no orders placed";
-        return customerToOrder[customerAddress].status == OrderStatus.SHIPPED ? "shipped" : "delivered";
+        if(!(msg.sender == owner || msg.sender == customerAddress)) revert NotAccessible();
+        if (customerToOrder[customerAddress].status == OrderStatus.SHIPPED) { 
+            return "shipped";
+        } else if (customerToOrder[customerAddress].status == OrderStatus.DILIVERED) {
+            return "delivered";
+        } else {
+
+            return "no orders placed";
+        }
+
+        
     }
 
     //This function outputs the total number of successful deliveries
     function totalCompletedDeliveries(address customerAddress) public view returns (uint) {
+        if(!(msg.sender == owner || msg.sender == customerAddress)) revert NotAccessible();
         return completedDeliveries[customerAddress];
     }
 
