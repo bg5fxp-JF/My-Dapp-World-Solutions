@@ -15,7 +15,7 @@ describe("TriangleInequality", function() {
             assert(await ti.check(7,5,10));
         });
         it("should return false with incorrect values", async function () {
-            assert(await ti.check(1,1,6) == false);
+            assert((!await ti.check(1,1,6)));
         });
     })
 })
