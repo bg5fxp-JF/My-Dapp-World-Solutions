@@ -6,7 +6,7 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
 List of available solutions
 	●	Easy
   - [x] Fibonacci Sequence
-  - [ ] Pythagoras Theorem
+  - [x] Pythagoras Theorem
   - [x] Triangle Inequality
   - [ ] LCM
   - [ ] Shipment Service (easy)
