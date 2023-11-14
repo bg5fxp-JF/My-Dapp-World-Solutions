@@ -4,7 +4,7 @@ I have been exploring [Dapp World](https://dapp-world.com) and have engaged with
 Feel free to also check out my profile on [Dapp World](https://dapp-world.com/soul/Jacob163)
 
 List of available solutions
-	●	Easy
+- Easy
   - [x] Fibonacci Sequence
   - [x] Pythagoras Theorem
   - [x] Triangle Inequality
@@ -20,7 +20,7 @@ List of available solutions
   - [ ] Calculate factorial
   - [ ] Calculate greatest
   - [ ] Check even number
-	●	Medium
+- Medium
   - [x] Automatic Lottery System - Easy
   - [x] Palindrome Checker
   - [ ] Solah Parchi Thap - Easy
@@ -37,7 +37,7 @@ List of available solutions
   - [ ] Compare strings
   - [ ] Owner smart contract
   - [ ] Club referral system
-	●	Hard
+- Hard
   - [ ] Automatic Lottery System - Hard
   - [ ] Solah Parchi Thap - Hard
   - [ ] Blockchain Gaming Ecosystem
