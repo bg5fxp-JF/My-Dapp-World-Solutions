@@ -1,9 +1,10 @@
-Dapp World Solidity Solutions
+# Dapp World Solidity Solutions
+
 I have been exploring [Dapp World](https://dapp-world.com) and have engaged with various problems related to blockchain and Solidity. This repository is created to share my solutions for these challenges. It's crucial to attempt these problems yourself before referring to my solutions. I welcome contributions, so feel free to send a pull request!
 
 Feel free to also check out my profile on [Dapp World](https://dapp-world.com/soul/Jacob163)
 
-List of available solutions
+## List of available solutions
 - Easy
   - [x] Fibonacci Sequence
   - [x] Pythagoras Theorem
