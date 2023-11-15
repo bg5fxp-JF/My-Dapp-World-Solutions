@@ -3,7 +3,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 error DidNotPayOut();
 
-contract Lottery {
+contract AutoLottery {
 
     uint256 private constant ENTRANCE_FEE = 0.1 ether;
     uint256 private constant NUM_PARTICIPANTS = 5;

@@ -5,6 +5,7 @@ error AlreadyMember();
 error AlreadyApplied();
 error AlreadyVotedForApplicant();
 error NotMember();
+error NotApplicant();
 
 contract DAOMembership {
 
@@ -35,8 +36,9 @@ contract DAOMembership {
     //To approve the applicant for membership of DAO
     function approveEntry(address _applicant) public {
         if(!isMemberMap[msg.sender]) revert NotMember();
-         if(isMemberMap[_applicant]) revert AlreadyMember();
-         if(memberHasVotedForApplicant [msg.sender][_applicant]) revert AlreadyVotedForApplicant();
+        if(isMemberMap[_applicant]) revert AlreadyMember();
+        if(!(applicants[_applicant].isApplicant)) revert NotApplicant();
+        if(memberHasVotedForApplicant [msg.sender][_applicant]) revert AlreadyVotedForApplicant();
         applicants[_applicant].votes++;
         memberHasVotedForApplicant[msg.sender][_applicant] = true;
         if (applicants[_applicant].votes > (members.length * 3)/10) {
