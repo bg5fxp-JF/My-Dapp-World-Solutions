@@ -27,16 +27,15 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [ ] Solah Parchi Thap - Easy
   - [x] Bus Ticket
   - [x] DAO Membership - Easy
-  - [ ] Scholarship Credit System - Easy
-  - [ ] Gavin and Magic Array
+  - [x] Scholarship Credit System - Easy
+  - [x] Gavin and Magic Array
   - [x] Gavin and smart wallet
   - [x] Smart Contract Solution for Buying Colors within Credit Limits
-  - [ ] Scholarship Credit System - Easy
-  - [ ] Smart ranking (Easy version)
-  - [ ] Maximum profit
-  - [ ] Calculate Fare
+  - [x] Smart ranking (Easy version)
+  - [x] Maximum profit
+  - [x] Calculate Fare
   - [x] Compare strings
-  - [ ] Owner smart contract
+  - [x] Owner smart contract
   - [x] Club referral system
 - Hard
   - [ ] Automatic Lottery System - Hard
