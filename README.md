@@ -38,9 +38,9 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [x] Owner smart contract
   - [x] Club referral system
 - Hard
-  - [ ] Automatic Lottery System - Hard
+  - [x] Automatic Lottery System - Hard
   - [ ] Solah Parchi Thap - Hard
-  - [ ] Blockchain Gaming Ecosystem
+  - [x] Blockchain Gaming Ecosystem
   - [ ] Team Wallet - Easy
   - [ ] Team Wallet - Hard
   - [ ] DAO Membership - Hard
