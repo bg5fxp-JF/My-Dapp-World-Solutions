@@ -41,11 +41,11 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [x] Automatic Lottery System - Hard
   - [ ] Solah Parchi Thap - Hard
   - [x] Blockchain Gaming Ecosystem
-  - [ ] Team Wallet - Easy
-  - [ ] Team Wallet - Hard
-  - [ ] DAO Membership - Hard
-  - [ ] Shipment Service (hard)
-  - [ ] Scholarship Credit System - Hard
+  - [x] Team Wallet - Easy
+  - [x] Team Wallet - Hard
+  - [x] DAO Membership - Hard
+  - [x] Shipment Service (hard)
+  - [x] Scholarship Credit System - Hard
   - [ ] Dapp World's got Talent
   - [ ] Gavin and the bookstore
   - [ ] Gavin and the chocolate shop (Hard version)
