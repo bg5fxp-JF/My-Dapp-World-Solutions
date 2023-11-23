@@ -24,7 +24,6 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
 - Medium
   - [x] Automatic Lottery System - Easy
   - [x] Palindrome Checker
-  - [ ] Solah Parchi Thap - Easy
   - [x] Bus Ticket
   - [x] DAO Membership - Easy
   - [x] Scholarship Credit System - Easy
@@ -39,15 +38,14 @@ Feel free to also check out my profile on [Dapp World](https://dapp-world.com/so
   - [x] Club referral system
 - Hard
   - [x] Automatic Lottery System - Hard
-  - [ ] Solah Parchi Thap - Hard
   - [x] Blockchain Gaming Ecosystem
   - [x] Team Wallet - Easy
   - [x] Team Wallet - Hard
   - [x] DAO Membership - Hard
   - [x] Shipment Service (hard)
   - [x] Scholarship Credit System - Hard
-  - [ ] Dapp World's got Talent
-  - [ ] Gavin and the bookstore
-  - [ ] Gavin and the chocolate shop (Hard version)
-  - [ ] Smart ranking (Hard version)
-  - [ ] Diamond tracking (Hard version)
+  - [x] Dapp World's got Talent
+  - [x] Gavin and the bookstore
+  - [x] Gavin and the chocolate shop (Hard version)
+  - [x] Smart ranking (Hard version)
+  - [x] Diamond tracking (Hard version)
